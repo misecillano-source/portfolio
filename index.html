@@ -3,41 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Home</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <h1>MICH</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>My Creative Homepage</h1>
     </header>
 
-    <main>
-        <section id="about-me">
-            <img src="images/profile.jpeg" alt="Your Photo" class="profile-image">
-            <h2>Michelle Anne S. Secillano</h2>
-            <p>I have 9 siblings, my favorite color is blue, i prefer pants rather than dress, and im afraid spider.</p>
-        </section>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
 
-        <section id="featured">
-            <h2>Featured Project</h2>
-            <div class="featured-project">
-                <img src="placeholder-project.jpg" alt="Featured Project">
-                <h3>CCS 101-INTRODUCTION TO COMPUTING - FINAL PROJECT</h3>
-                <p>This project will demonstrate our understanding of web structure (HTML) and presenatation (CSS), as well as our ability to organize and deliver a complete web project.</p>
-                <a href="#">Learn More</a>
+    <div class="container">
+        <section class="introduction">
+            <div class="text">
+                <h2>Introduction</h2>
+                <p>Welcome, I am Michelle Anne Secillano!
+                    I am a 1st Year Computer Science student in Camarines Sur Polytechnic Colleges.
+                    This is my space where my skills and obtained knowledge in my courses is applied.
+                    Feel free to explore my site and see my achievements.</p>
+            </div>
+            <div class="photo">
+                <img src="images/profile.jpg" alt="Placeholder Image">
             </div>
         </section>
-    </main>
+
+        <section class="overview">
+            <h2>Overview</h2>
+            <p>This space is intended to showcase my skills and knowledge in my program.
+                Here we'll see my improvements little by little with my projects displayed.
+                I'd prefer my site to be inspired with my interest and engagements specially with trends.</p>
+        </section>
+    </div>
 
     <footer>
-        <p>&copy; 2025 Michelle Anne S. Secillano</p>
+        <p>&copy; 2024 Mich</p>
     </footer>
+
 </body>
 </html>
