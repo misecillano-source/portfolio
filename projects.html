@@ -3,46 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Projects</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
     <header>
-        <h1>Your Logo</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>My Projects</h1>
     </header>
 
-    <main>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project">
-                    <img src="project1.png" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>This is the final project/exam in our major subject on linear algebra, we made a 3D helix spring using python matplotlib.</p>
-                </div>
-                <div class="project">
-                    <img src="images/project2.jpeg" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>This learning website  is part of our research last year, we made a website just to fulfill the requirements in our subject practical research>
-                </div>
-                <div class="project">
-                    <img src="images/project3.png" alt="Project 3">
-                    <h3>Project 3</h3>
-                    <p>This project aims to evaluate students’ ability to analyze, explain, and defend the behavior of Python programming constructs including loops, conditionals, functions, and recursion—within the context of a real-life computing problem. Students will design and implement a small “mini-machine” program that demonstrates their understanding of algorithmic thinking and highlights how the base case is identified and used to ensure correct program behavior, especially in recursive or iterative problem-solving.</p>
-                </div>
-            </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="container projects-container">
+        <section class="project">
+            <h2>3D HELIX SPRING</h2>
+            <img src="images/project1.png" alt="Project Image">
+            <p>This is the final project/exam in our major subject on linear algebra, we made a 3D helix spring using python matplotlib.
+            </p>
+            <p><strong>Technologies Used:</strong> MATPLOTLIB AND PYTHON </p>
+            <a href="https://youtu.be/WsVxlyoQO7s?si=JZslI4SDAtqU7Gsj">View Project</a>
         </section>
-    </main>
+
+        <section class="project">
+            <h2>LAIHS WEB LEARNING SITE</h2>
+            <img src="images/project2.jpeg" alt="Project Image">
+            <p>This learning website is part of our research last year, we made a website just to fulfill the requirements in our subject practical research
+            </p>
+            <p><strong>Technologies Used:</strong> GOOGLE SITE </p>
+            <a href="https://sites.google.com/view/laihs/home">View Project</a>
+        </section>
+
+        <section class="project">
+            <h2>FINAL PROJECT IN FUNDAMENTALS PROGRAMMING</h2>
+            <img src="images/project3.png" alt="Project Image">
+            <p>This project aims to evaluate students ability to analyze, explain, and defend the behavior of Python programming constructs including loops, conditionals, functions, and recursion—within the context of a real-life computing problem. Students will design and implement a small “mini-machine” program that demonstrates their understanding of algorithmic thinking and highlights how the base case is identified and used to ensure correct program behavior, especially in recursive or iterative problem-solving.
+            </p>
+            <p><strong>Technologies Used:</strong> PYTHON </p>
+            <a href="https://drive.google.com/file/d/1_GaQznYJPU9nseVXFjHYR3vmHxOJ6SWs/view?usp=sharing">View Project</a>
+        </section>
+    </div>
 
     <footer>
-        <p>&copy; 2024 Michelle Anne</p>
+        <p>&copy; 2024 Mich</p>
     </footer>
+
 </body>
 </html>
